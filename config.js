@@ -1,15 +1,15 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Grayscale', // <title>
+  siteTitle: 'RoddenVO', // <title>
   manifestName: 'Grayscale',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestShortName: 'Home', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/img/roddenvo-w-buff.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Jeremiah Rodden',
+  subHeading: 'Voiceover Artist',
 
   // social
   socialLinks: [
@@ -34,7 +34,7 @@ module.exports = {
       url: 'https://facebook.com/theanubhav',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
+  email: 'roddenvo@gmail.com',
   phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  address: '',
 };

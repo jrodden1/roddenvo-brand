@@ -5,6 +5,7 @@ import Scroll from '../components/Scroll';
 
 import config from '../../config';
 import Footer from '../components/Footer';
+import roddenVOLogo from '../assets/img/roddenvo-tight.svg'
 import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
@@ -16,6 +17,31 @@ import bgMaster from '../assets/images/bg-masthead.jpg';
 
 const IndexPage = () => (
   <Layout>
+    
+    <header className="masthead">
+      <div className="container d-flex h-100 align-items-center">
+        <div className="mx-auto text-center">
+          <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1>
+          <br/><br />
+          <h2 className="text-white-50 mx-auto mt-2 mb-5">
+            {config.subHeading} - Website Coming Soon...
+          </h2>
+
+          <a style={{margin: "1rem"}} className="btn btn-secondary" href="https://www.acx.com/narrator?p=A2KKVQ498OMW7N">ACX Profile</a>
+          <a style={{margin: "1rem"}} className="btn btn-secondary" href="mailto:roddenvo@gmail.com">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    
+    <Footer />
+  </Layout>
+);
+
+export default IndexPage;
+
+/* Original - For use later
+<Layout>
     <Header />
 
     <header className="masthead">
@@ -119,6 +145,4 @@ const IndexPage = () => (
     <SocialLinks />
     <Footer />
   </Layout>
-);
-
-export default IndexPage;
+*/
